@@ -1,0 +1,31 @@
+{
+  "name": "cap-material-stock",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sap-cloud-sdk/connectivity": "^4",
+    "@sap-cloud-sdk/http-client": "^4.6.0",
+    "@sap-cloud-sdk/resilience": "^4.6.0",
+    "@sap/cds": "^9"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2.4"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "private": true,
+  "cds": {
+    "requires": {
+      "API_MATERIAL_STOCK_SRV": {
+        "kind": "odata-v2",
+        "model": "srv/external/API_MATERIAL_STOCK_SRV",
+     "credentials": {
+    "url": "http://itbrlnx02.kmudemo.site:51000/sap/opu/odata/sap/API_MATERIAL_STOCK_SRV",
+    "authentication": "BasicAuthentication",
+    "username": "",
+    "password": ""
+}
+      }
+    }
+  }
+}
