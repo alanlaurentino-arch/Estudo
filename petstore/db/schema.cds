@@ -9,3 +9,10 @@ entity Pets : managed {
  
 }
 
+entity Branches : managed {
+  key name : String;
+  address  : localized String;
+  country  : localized String;
+ 
+}
+
