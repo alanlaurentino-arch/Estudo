@@ -20,11 +20,3 @@ File or Folder | Purpose
 ## Learn More
 
 Learn more at <https://cap.cloud.sap>.
-
-## Links Uteis (Destination)
-
-<https://community.sap.com/t5/technology-blog-posts-by-sap/sap-cloud-platform-how-to-call-onprem-system-from-node-js-app-via-cloud/ba-p/13484432>
-
-<https://community.sap.com/t5/technology-blog-posts-by-sap/surviving-and-thriving-with-cap-destinations-and-the-transparent-proxy-for/ba-p/13555822>
-
-<https://www.npmjs.com/package/@sap/xsenv>
