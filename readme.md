@@ -23,8 +23,12 @@ Learn more at <https://cap.cloud.sap>.
 
 ## Links Uteis (Destination)
 
+<https://sap.github.io/cloud-sdk/docs/js/features/connectivity/destinations>
+
 <https://community.sap.com/t5/technology-blog-posts-by-sap/sap-cloud-platform-how-to-call-onprem-system-from-node-js-app-via-cloud/ba-p/13484432>
 
 <https://community.sap.com/t5/technology-blog-posts-by-sap/surviving-and-thriving-with-cap-destinations-and-the-transparent-proxy-for/ba-p/13555822>
 
 <https://www.npmjs.com/package/@sap/xsenv>
+
+<https://github.com/SAP/sap-btp-service-operator#table-of-contents>
