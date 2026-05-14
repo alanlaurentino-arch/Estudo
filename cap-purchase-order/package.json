@@ -1,0 +1,39 @@
+{
+  "name": "cap-purchase-order",
+  "version": "1.0.0",
+  "description": "Welcome to your new CAP project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@sap-cloud-sdk/connectivity": "^4.6.0",
+    "@sap-cloud-sdk/http-client": "^4.6.0",
+    "@sap-cloud-sdk/resilience": "^4.6.0",
+    "@sap/cds": "^9.9.1",
+    "express": "^5.2.1"
+  },
+  "cds": {
+    "requires": {
+      "API_PURCHASEORDER_PROCESS_SRV": {
+        "kind": "odata-v2",
+        "model": "srv/external/API_PURCHASEORDER_PROCESS_SRV",
+        "[hybrid]": {
+          "credentials": {
+            "destination": "S4HANA_PO",
+            "path": "/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV"
+          },
+          "csrf": true,
+          "csrfInBatch": true,
+          "destinationOptions": {
+            "useCache": true
+          }
+        }
+      }
+    }
+  }
+}
